@@ -1,0 +1,430 @@
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-family: "Orbitron", sans-serif;
+  /* font-size: 1.75rem; */
+  font-size: 175%;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  opacity: 80%;
+}
+
+h6, p {
+  font-family: "Roboto", sans-serif;
+}
+p{
+  opacity: 80%;
+}
+a{
+  text-decoration: none;
+}
+@media (max-width:998px){
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    font-size: 175%;
+  }
+  h6, p {
+    font-size: 0.5rem;
+  }
+}
+
+/* HRS */
+.sup{
+  margin: 0;
+  border: 3px solid rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  opacity: 100%;
+}
+
+
+
+
+.nav-item {
+  padding: 0 5%;
+}
+
+#home {
+  color: white;
+  width: 100%;
+  position: fixed;
+  
+  background-image: url(https://i.pinimg.com/originals/51/26/d0/5126d0dd14d2d73718fca5687d21edc3.gif);
+  height: 100%;
+  background-position: -100px 0;
+  background-color: black;
+}
+
+.main-heading {
+
+  /* GIF */
+  margin: 20% auto;
+  width: 50%;
+  padding: 5%;
+  text-shadow: px 2px 4px rgba(0, 0, 0, 0.4);
+  text-align: center;
+
+  
+}
+@media (max-width:998px){
+  .main-heading{
+    margin: 40% auto;
+  }
+}
+.main-heading h1 {
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+
+.fixed{
+    position: absolute;
+    top: 100%;
+}
+
+#cv {
+  background-color: white;
+  width: 100%;
+
+}
+
+#cv p, #cv h6 {
+  opacity: 60%;
+}
+
+.left-profile {
+  margin: 10% 24.5%;
+}
+
+.left-profile h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+@media (max-width:998px){
+  .left-profile {
+    margin: 5% 10%;
+  }
+}
+.tl-left {
+  text-align: left;
+}
+
+.tl-right {
+  text-align: right;
+}
+
+.left-profile img {
+  padding: 0 0 5%;
+  width: 100%;
+}
+
+.right-profile {
+  margin: 10% 5% 15% 15%;
+}
+@media (max-width:998px){
+  .right-profile {
+    margin: 5%;
+  }
+}
+.right-profile .row {
+  margin: 64px 0;
+}
+
+.right-profile .col-lg-4 {
+  padding: 0;
+}
+
+#contents {
+  /* width: 100%;
+    position: absolute;
+    top: 2000px; */
+}
+
+.projects {
+  background-color: white;
+}
+
+.projects img {
+  width: 100%;
+}
+
+.bg {
+  position: absolute;
+}
+
+.logo{
+  position: absolute;
+}
+.logo img{
+  padding: 0 1%;
+  width: 4%;
+}
+@media (max-width:998px){
+  #contents h1{
+    font-size: 2rem;
+  }
+}
+
+
+
+.tr {
+  padding: 4% 2%;
+  position: absolute;
+  right: 13%;
+}
+
+.tr h2 {
+  margin: 16px;
+  display: inline-block;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+@media (max-width:998px){
+  .tr {
+    padding: 4% 1%;
+    position: absolute;
+    right: 5%;
+  }
+  
+  .tr h2 {
+    margin: 4px;
+    display: inline-block;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  }
+}
+#holiday-house .tr-active, #interior-design .tr-active {
+  color: white;
+}
+
+#holiday-house .tr-active:hover,#interior-design .tr-active:hover {
+  color: white;
+}
+
+#holiday-house .tr-notactive, #interior-design .tr-notactive {
+  color: white;
+  opacity: 60%;
+}
+
+#holiday-house .tr-notactive:hover,  #interior-design .tr-notactive:hover{
+  color: white;
+  opacity: 100%;
+}
+
+#holiday-house .bg-text {
+  padding: 30% 60% 0 5%;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+@media (max-width:998px){
+  #holiday-house .bg-text {
+    padding: 20% 30% 0 5%;
+  }
+}
+
+
+
+#interior-design .bg-text {
+  padding: 30% 60% 0 5%;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+@media (max-width:998px){
+  #interior-design .bg-text {
+    padding: 20% 30% 0 5%;
+  }
+}
+
+
+
+#auditorium .bg-text {
+  padding: 30% 60% 0 5%;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#auditorium .tr-active, #kalyana-mandapam .tr-active {
+  color: black;
+}
+
+#auditorium .tr-active:hover, #kalyana-mandapam .tr-active:hover {
+  color: black;
+}
+
+#auditorium .tr-notactive, #kalyana-mandapam .tr-notactive {
+  color: black;
+  opacity: 60%;
+}
+
+#auditorium .tr-notactive:hover, #kalyana-mandapam .tr-notactive:hover{
+  color: black;
+  opacity: 100%;
+}
+@media (max-width:998px){
+  #auditorium .bg-text {
+    padding: 20% 30% 0 5%;
+  }
+}
+
+
+
+
+
+#kalyana-mandapam .bg-text {
+  padding: 30% 60% 0 5%;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#kalyana-mandapam .tr-active {
+  color: black;
+}
+
+#kalyana-mandapam .tr-active:hover {
+  color: black;
+}
+
+#au#kalyana-mandapam .tr-notactive {
+  color: black;
+  opacity: 60%;
+}
+
+#kalyana-mandapam .tr-notactive:hover{
+  color: black;
+  opacity: 100%;
+}
+@media (max-width:998px){
+  #kalyana-mandapam .bg-text {
+    padding: 20% 30% 0 5%;
+  }
+}
+
+
+
+
+#pavilion-design .bg-text {
+  padding: 60% 50% 0 5%;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+@media (max-width:998px){
+  #pavilion-design .bg-text {
+    padding: 20% 10% 0 5%;
+  }
+  #others h1{
+    font-size: 2rem;
+  }
+}
+
+
+
+
+.logo-pavi{
+  position: absolute;
+}
+.logo-pavi img{
+  padding: 0 2%;
+  width: 8%;
+}
+
+
+.wd{
+  width: 100%;
+}
+
+.images{
+  background-color: rgb(29, 29, 29);
+}
+.images img{
+  width: 100%;
+  padding: 3% 1%;
+}
+.images h2{
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+.udemy{
+  position: absolute;
+  padding: 37% 5% 0 56%;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+#contact {
+  
+  background-color: black;
+  color: white;
+}
+@media (max-width:998px){
+  #contact{
+    padding-top: 5%;
+  }
+
+}
+#contact .lt{
+  padding: 5% 0 5% 20%;
+  
+}
+#contact .rt{
+  padding: 5% 0 5% 3%;
+}
+#contact .mid{
+  margin: auto;
+  width: 50%;
+}
+@media (max-width:998px) {
+  #contact .lt{
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+  }
+  #contact .mid{
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+  }
+  #contact .rt{
+
+  }
+}
+#contact .wtf {
+display: inline;
+}
+#contact img{
+  width: 20%;
+
+}
+
+@media (max-width:998px) {
+  #contact img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+}
